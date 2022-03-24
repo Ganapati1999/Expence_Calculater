@@ -1,0 +1,171 @@
+.trackerBlock {
+    /* border-radius: 5px; */
+    box-sizing: border-box;
+    /* background-color: #E9E9E9; */
+    padding: 20px;
+    width: 50%;
+    max-width: 1000px;
+    
+   margin: 50px auto; 
+    display: table;
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.welcome {
+    color: rgb(251, 254, 255);
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    text-shadow: 0px 5px 3px #292929;
+}
+.totalMoney {
+    color: #fff;
+    font-size: 20px;
+    margin:0 0 10px;
+    text-shadow: 0px 5px 3px #292929;
+}
+
+.newTransaction {
+    box-sizing: border-box;
+    text-align: center;
+    color: #425f9c;
+    display: table;
+    max-width: 700px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    padding: 10px;
+    margin:0 0 10px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.newTransaction input[type="text"],
+.newTransaction select{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    padding: 7px;
+}
+
+.newTransaction input[type="text"]:focus,
+.newTransaction select:focus{
+    outline: none;
+}
+
+.inputGroup {
+    /* display:flex; */
+ 
+    justify-content: center;
+}
+
+.addTransaction {
+    text-align: center;
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: #425f9c;
+    border: 0;
+    margin: 10px 0 0;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.addTransaction:hover {
+    background-color: #274177;
+}
+
+.addTransaction:focus{
+    outline: none;
+}
+
+
+
+.latestTransactions {
+    background-color: #fff;
+    
+    
+    /* padding: 10px; */
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.latestTransactions p{
+    font-weight: bold;
+    color: rgb(95, 24, 209);
+    padding: 0 0 5px;
+    margin-left:0px;
+    text-align: center;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left:10px;
+    margin-right:10px;
+    text-align: center;
+}
+
+ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+    display: flex;
+    
+ 
+    justify-content: space-between;
+}
+
+ul li:last-child{
+    border-bottom: 0;
+    padding: 5px 0 0;
+}
+
+.expense {
+    color: red;
+}
+
+.deposit {
+    color: green;
+}
+
+.exit {
+    background-color: #fff;
+    border: 0;
+    border-radius: 3px;
+    color: red;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.exit:hover {
+    background-color: #f1f1f1;
+}
+.Align{
+    font-weight: bold;
+    color: rgb(95, 24, 209);
+    padding: 0 0 5px;
+    margin-left:0px;
+    text-align: center;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 50px auto;
+    
+   
+  }
+  th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    
+  }
+  
